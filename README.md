@@ -24,12 +24,11 @@ Projekt jest rozwijany w języku Java z wykorzystaniem Android SDK i układów i
 
 | | |
 |:---:|:---:|
-| ![Ekran 01](docs/images/01.png) | ![Ekran 02](docs/images/02.png) |
-| ![Ekran 03](docs/images/03.png) | ![Ekran 04](docs/images/04.png) |
-| ![Ekran 05](docs/images/05.png) | ![Ekran 06](docs/images/06.png) |
-| ![Ekran 07](docs/images/07.png) | ![Ekran 08](docs/images/08.png) |
-| ![Ekran 09](docs/images/09.png) | ![Ekran 10](docs/images/10.png) |
-
+| <img src="docs/images/01.png" width="45%"> | <img src="docs/images/02.png" width="45%"> |
+| <img src="docs/images/03.png" width="45%"> | <img src="docs/images/04.png" width="45%"> |
+| <img src="docs/images/05.png" width="45%"> | <img src="docs/images/06.png" width="45%"> |
+| <img src="docs/images/07.png" width="45%"> | <img src="docs/images/08.png" width="45%"> |
+| <img src="docs/images/09.png" width="45%"> | <img src="docs/images/10.png" width="45%"> |
 ## Wykorzystane technologie
 
 | Technologia | Zastosowanie |
