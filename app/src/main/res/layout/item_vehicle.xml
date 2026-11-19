@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@color/card_background"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Nagłówek karty -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!-- Ikona samochodu -->
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/bg_button_navigate"
+                android:padding="10dp"
+                android:src="@drawable/ic_directions_car_24"
+                android:contentDescription="@null"
+                app:tint="@color/brand_navy" />
+
+            <!-- Nazwa pojazdu -->
+            <TextView
+                android:id="@+id/tvVehicleName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/primary_text"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Usuń pojazd -->
+            <ImageButton
+                android:id="@+id/btnDeleteVehicle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/delete"
+                android:padding="9dp"
+                android:src="@drawable/ic_delete_24"
+                app:tint="@color/danger" />
+
+        </LinearLayout>
+
+        <!-- Numer rejestracyjny -->
+        <TextView
+            android:id="@+id/tvRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/brand_navy"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/separator" />
+
+        <!-- VIN -->
+        <TextView
+            android:id="@+id/tvVin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/secondary_text"
+            android:textSize="13sp" />
+
+        <!-- Kolor -->
+        <TextView
+            android:id="@+id/tvColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/secondary_text"
+            android:textSize="13sp" />
+
+        <!-- Data rejestracji -->
+        <TextView
+            android:id="@+id/tvRegistrationDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/secondary_text"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

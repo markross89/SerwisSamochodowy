@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".app.SerwisSamochodowyApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SerwisSamochodowy">
+
+        <activity
+            android:name=".ui.activity.WorkshopActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.activity.BookVisitSummaryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.activity.BookVisitDetailsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.activity.BookVisitActivity"
+            android:exported="false" />
+
+        <activity android:name=".ui.activity.AddVehicleActivity" />
+
+        <activity android:name=".ui.activity.MyVehiclesActivity" />
+
+        <!--Zmiana hasła-->
+        <activity
+            android:name=".ui.activity.ChangePasswordActivity"
+            android:exported="false" />
+
+        <activity android:name=".ui.activity.EditProfileActivity" />
+
+        <!-- Ustawienia-->
+        <activity
+            android:name=".ui.activity.SettingsActivity"
+            android:exported="false" />
+
+        <!-- Powiadomienia -->
+        <activity
+            android:name=".ui.activity.NotificationsActivity"
+            android:exported="false" />
+
+        <!-- Rejestracja -->
+        <activity
+            android:name=".ui.activity.RegisterActivity"
+            android:exported="false" />
+
+        <!-- Strona główna -->
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:exported="false" />
+
+        <!-- Logowanie – ekran startowy -->
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+    </application>
+
+</manifest>

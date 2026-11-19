@@ -1,0 +1,269 @@
+<resources>
+    <string name="app_name">SerwisSamochodowy</string>
+    <string name="add_vehicle_to_service">Dodaj pojazd do serwisu</string>
+    <string name="make_of_the_car">Marka (np. Audi)</string>
+    <string name="model_of_the_car">Model (np. A4)</string>
+    <string name="car_registration">Numer rejestracyjny</string>
+    <string name="car_vin_nr">Numer VIN</string>
+    <string name="save_car">Zapisz pojazd</string>
+    <string name="car_color">Kolor</string>
+    <string name="registration_date">Data rejestracji</string>
+    <string name="login_password">Hasło</string>
+    <string name="login">Zaloguj się</string>
+    <string name="email">Adres e-mail</string>
+    <string name="service_login">Logowanie do serwisu</string>
+    <string name="account_registration">Rejestracja konta</string>
+    <string name="name">Imię *</string>
+    <string name="surname">Nazwisko *</string>
+    <string name="email_address">Adres e-mail *</string>
+    <string name="phone_nr">Numer telefonu</string>
+    <string name="password">Hasło *</string>
+    <string name="address">Adres zamieszkania</string>
+    <string name="street_name">Ulica</string>
+    <string name="house_nr">Nr domu</string>
+    <string name="flat_nr">Nr mieszkania</string>
+    <string name="city">Miasto *</string>
+    <string name="postal_code">Kod pocztowy (np. 00-000)</string>
+    <string name="country">Kraj</string>
+    <string name="register">Zarejestruj się</string>
+    <string name="already_have_account_register">Masz już konto? Zaloguj się</string>
+    <string name="no_account_register">Nie masz konta? Zarejestruj się</string>
+    <string name="settings">Ustawienia</string>
+    <string name="logout">Wyloguj</string>
+    <string name="header_your_vehicles">TWOJE POJAZDY</string>
+    <string name="header_service_status">Status serwisowy</string>
+    <string name="status_vehicles_ok">● Pojazdy gotowe do drogi</string>
+    <string name="button_schedule_service">Umów wizytę / serwis</string>
+    <string name="header_client_menu">Strefa klienta</string>
+    <string name="menu_my_vehicles">Moje pojazdy</string>
+    <string name="menu_my_vehicles_info">Zarządzaj swoimi pojazdami</string>
+    <string name="button_my_vehicles">Moje pojazdy</string>
+    <string name="menu_my_workshop">Mój warsztat</string>
+    <string name="menu_my_workshops_info">Historia i informacje o serwisie</string>
+    <string name="button_my_workshop">Mój warsztat</string>
+    <string name="my_details">Moje Dane</string>
+    <string name="edit_my_details">Edytuj dane</string>
+    <string name="app_appearance">Wygląd aplikacji</string>
+    <string name="dark_mode">Tryb ciemny</string>
+    <string name="security">Bezpieczeństwo</string>
+    <string name="settings_change_password">Zmiań hasło</string>
+    <string name="settings_delete_account">Usuń konto</string>
+    <string name="notifications">Powiadomienia</string>
+    <string name="settings_turn_on_notifications">Włącz powiadomienia</string>
+    <string name="settings_turn_on_notifications_info">Powiadomienia telefonu będą wyświetlane niezależnie od tego czy aplikacja jest aktywna</string>
+    <string name="settings_turn_on_external_notifications">Włącz powiadomienia zewnętrzne</string>
+    <string name="settings_turn_on_external_notifications_info">Powiadomienia telefonu będą wyświetlane niezależnie od tego czy aplikacja jest aktywna</string>
+    <string name="save_changes">Zapisz zmiany</string>
+    <string name="change_password">Zmiana hasła</string>
+    <string name="clear_history">Wyczyść historię</string>
+    <string name="filter_all">Wszystkie</string>
+    <string name="filter_unread">Nieprzeczytane</string>
+    <string name="no_notifications">Brak powiadomień</string>
+    <string name="no_notifications_description">Tutaj pojawią się informacje o wizytach i Twoim pojeździe.</string>
+    <string name="new_notification">Nowe powiadomienie</string>
+    <string name="clear_history_confirmation">Czy na pewno chcesz usunąć wszystkie powiadomienia? Tej operacji nie można cofnąć.</string>
+    <string name="cancel">Anuluj</string>
+    <string name="history_cleared">Historia powiadomień została wyczyszczona.</string>
+    <string name="delete">Usuń</string>
+    <string name="my_vehicles">Moje pojazdy</string>
+    <string name="my_vehicles_info">Zarządzaj swoimi pojazdami</string>
+    <string name="add_vehicle">+ Dodaj pojazd</string>
+    <string name="saved_vehicles">Zapisane pojazdy</string>
+    <string name="no_saved_vehicles">Nie masz jeszcze pojazdów</string>
+    <string name="car_icon">Ikona pojazdu</string>
+    <string name="add_first_vehicle">Dodaj swój pierwszy pojazd, aby móc umawiać wizyty serwisowe.</string>
+    <string name="vehicle_details">Szczegóły pojazdu</string>
+    <string name="vehicle_data">Dane pojazdu</string>
+    <string name="make_and_model">Marka i model</string>
+    <string name="registration_nr">Numer rejestracyjny</string>
+    <string name="vin_nr">Numer VIN</string>
+    <string name="color">Kolor</string>
+    <string name="edit">Edytuj pojazd</string>
+    <string name="delete_vehicle">Usuń pojazd</string>
+
+    <string name="vehicle_registration">Rejestracja: %1$s</string>
+    <string name="vehicle_vin">VIN: %1$s</string>
+    <string name="vehicle_color">Kolor: %1$s</string>
+    <string name="vehicle_registration_date">Data rejestracji: %1$s</string>
+    <string name="vehicle_not_provided">Nie podano</string>
+    <string name="vehicle_name">%1$s %2$s</string>
+
+
+    <!-- Book Visit - nagłówek -->
+    <string name="book_visit_title">Umów wizytę</string>
+    <string name="book_visit_subtitle">Wybierz rodzaj usługi, której potrzebujesz.</string>
+
+    <!-- Kategorie -->
+    <string name="category_periodic">Serwis okresowy</string>
+    <string name="category_diagnostics">Diagnostyka</string>
+    <string name="category_vulcanization">Usługi wulkanizacyjne</string>
+    <string name="category_repair">Naprawa</string>
+    <string name="category_other">Inne</string>
+
+    <!-- Opisy kategorii -->
+    <string name="category_periodic_description">Regularne czynności konserwacyjne i przeglądy pomagające utrzymać samochód w dobrym stanie technicznym.</string>
+
+    <string name="category_diagnostics_description">Wybierz tę kategorię, jeśli nie znasz przyczyny problemu lub chcesz sprawdzić stan techniczny samochodu.</string>
+
+    <string name="category_vulcanization_description">Usługi związane z oponami i kołami, zarówno sezonowe, jak i naprawcze.</string>
+
+    <string name="category_repair_description">Wybierz tę kategorię, jeśli znasz usterkę lub chcesz zlecić naprawę konkretnego elementu samochodu.</string>
+
+    <string name="category_other_description">Pozostałe usługi, które nie pasują do żadnej z powyższych kategorii.</string>
+
+    <!-- Przykłady kategorii -->
+    <string name="category_periodic_examples">Przykłady:\n• Wymiana oleju i filtrów\n• Wymiana płynów eksploatacyjnych\n• Przegląd okresowy\n• Kontrola podstawowych podzespołów</string>
+
+    <string name="category_diagnostics_examples">Przykłady:\n• Kontrolka błędu na desce rozdzielczej\n• Nietypowe dźwięki lub drgania\n• Problemy z uruchamianiem silnika\n• Diagnostyka komputerowa</string>
+
+    <string name="category_vulcanization_examples">Przykłady:\n• Wymiana opon letnich i zimowych\n• Wyważanie kół\n• Naprawa przebitej opony\n• Wymiana zaworów</string>
+
+    <string name="category_repair_examples">Przykłady:\n• Naprawa układu hamulcowego\n• Wymiana elementów zawieszenia\n• Naprawa układu wydechowego\n• Naprawa klimatyzacji</string>
+
+    <string name="category_other_examples">Przykłady:\n• Geometria kół\n• Przegląd przed zakupem\n• Przygotowanie auta do podróży\n• Montaż dodatkowego wyposażenia\n• Konserwacja podwozia</string>
+
+    <!-- Podkategorie: serwis okresowy -->
+    <string name="sub_oil_filters">Wymiana oleju i filtrów</string>
+    <string name="sub_fluids">Wymiana płynów eksploatacyjnych</string>
+    <string name="sub_periodic_inspection">Przegląd okresowy</string>
+    <string name="sub_technical_check">Kontrola stanu technicznego</string>
+    <string name="sub_other_periodic">Inna usługa</string>
+
+    <!-- Podkategorie: diagnostyka -->
+    <string name="sub_computer_diagnostics">Diagnostyka komputerowa</string>
+    <string name="sub_engine_diagnostics">Diagnostyka silnika</string>
+    <string name="sub_electrical_diagnostics">Diagnostyka układu elektrycznego</string>
+    <string name="sub_suspension_diagnostics">Diagnostyka zawieszenia i układu kierowniczego</string>
+    <string name="sub_brake_diagnostics">Diagnostyka układu hamulcowego</string>
+    <string name="sub_other_diagnostics">Inna diagnostyka</string>
+
+    <!-- Podkategorie: usługi wulkanizacyjne -->
+    <string name="sub_tire_change">Wymiana opon</string>
+    <string name="sub_wheel_balancing">Wyważanie kół</string>
+    <string name="sub_tire_repair">Naprawa opony</string>
+    <string name="sub_valve_replacement">Wymiana zaworów</string>
+    <string name="sub_tire_inspection">Kontrola stanu opon</string>
+    <string name="sub_other_vulcanization">Inna usługa wulkanizacyjna</string>
+
+    <!-- Podkategorie: naprawa -->
+    <string name="sub_brake_repair">Naprawa układu hamulcowego</string>
+    <string name="sub_suspension_repair">Naprawa zawieszenia i układu kierowniczego</string>
+    <string name="sub_engine_repair">Naprawa silnika i osprzętu</string>
+    <string name="sub_exhaust_repair">Naprawa układu wydechowego</string>
+    <string name="sub_gearbox_repair">Naprawa skrzyni biegów i sprzęgła</string>
+    <string name="sub_ac_repair">Naprawa klimatyzacji</string>
+    <string name="sub_electrical_repair">Naprawa instalacji elektrycznej</string>
+    <string name="sub_other_repair">Inna naprawa</string>
+
+    <!-- Podkategorie: inne -->
+    <string name="sub_wheel_alignment">Geometria kół</string>
+    <string name="sub_pre_purchase_inspection">Przegląd samochodu przed zakupem</string>
+    <string name="sub_trip_preparation">Przygotowanie samochodu do podróży</string>
+    <string name="sub_underbody_protection">Konserwacja podwozia</string>
+    <string name="sub_extra_equipment">Montaż dodatkowego wyposażenia</string>
+    <string name="sub_detailing">Czyszczenie tapicerki i detailing</string>
+    <string name="sub_other_service">Inna usługa</string>
+
+    <!-- Pola formularza -->
+    <string name="book_visit_category_label">Kategoria usługi</string>
+    <string name="book_visit_description_label">O tej kategorii</string>
+    <string name="book_visit_examples_label">Przykładowe usługi</string>
+    <string name="book_visit_subcategory_label">Rodzaj usługi</string>
+    <string name="book_visit_service_name_label">Nazwa usługi</string>
+    <string name="book_visit_service_name_hint">Np. wymiana oleju i filtrów</string>
+    <string name="book_visit_problem_label">Opis problemu lub oczekiwań</string>
+    <string name="book_visit_problem_hint">Opisz, co się dzieje...</string>
+    <string name="book_visit_next">Dalej</string>
+
+    <!-- Walidacja -->
+    <string name="book_visit_service_name_error">Podaj nazwę usługi</string>
+    <string name="book_visit_problem_error">Opisz, czego dotyczy zgłoszenie</string>
+    <string name="book_visit_form_valid">Dane formularza są poprawne</string>
+
+    <string name="book_visit_selection_title">Wybór usługi</string>
+    <string name="book_visit_selection_optional">Opcjonalne</string>
+    <string name="book_visit_selection_hint">Możesz wybrać kategorię i konkretną usługę lub pominąć ten krok.</string>
+    <string name="book_visit_details_title">Szczegóły zgłoszenia</string>
+    <string name="book_visit_no_selection">Nie wybieram</string>
+
+
+    <string name="book_visit_details_screen_title">Wybór pojazdu i terminu</string>
+    <string name="book_visit_details_screen_subtitle">Wskaż samochód i preferowany termin wizyty.</string>
+    <string name="book_visit_vehicle_title">Wybór samochodu</string>
+    <string name="book_visit_no_vehicles">Nie masz jeszcze dodanych pojazdów. Dodaj samochód, aby móc umówić wizytę.</string>
+    <string name="book_visit_date_time_title">Termin wizyty</string>
+    <string name="book_visit_date_time_hint">Wybierz preferowaną datę i godzinę.</string>
+    <string name="book_visit_date_label">Data wizyty</string>
+    <string name="book_visit_time_label">Godzina wizyty</string>
+    <string name="book_visit_choose_date">Wybierz datę</string>
+    <string name="book_visit_choose_time">Wybierz godzinę</string>
+    <string name="book_visit_vehicle_error">Wybierz samochód.</string>
+    <string name="book_visit_date_error">Wybierz datę wizyty.</string>
+    <string name="book_visit_time_error">Wybierz godzinę wizyty.</string>
+    <string name="book_visit_details_valid">Dane pojazdu i terminu zostały wybrane.</string>
+
+
+    <string name="book_visit_summary_title">Podsumowanie zgłoszenia</string>
+    <string name="book_visit_summary_subtitle">Sprawdź dane przed wysłaniem zgłoszenia do warsztatu.</string>
+
+    <string name="book_visit_summary_service_section">Zgłaszana usługa</string>
+    <string name="book_visit_summary_vehicle_section">Wybrany samochód</string>
+    <string name="book_visit_summary_date_section">Preferowany termin</string>
+
+    <string name="book_visit_summary_category">Kategoria: %1$s</string>
+    <string name="book_visit_summary_subcategory">Usługa szczegółowa: %1$s</string>
+
+    <string name="book_visit_summary_no_category">Nie wybrano kategorii</string>
+    <string name="book_visit_summary_no_subcategory">Nie wybrano podkategorii</string>
+
+    <string name="book_visit_summary_vehicle_error">Nie znaleziono wybranego pojazdu.</string>
+
+    <string name="book_visit_summary_date">Data: %1$s</string>
+    <string name="book_visit_summary_time">Godzina: %1$s</string>
+
+    <string name="book_visit_registration_info_title">Co dalej z Twoim zgłoszeniem?</string>
+
+    <string name="book_visit_registration_info">Po wysłaniu zgłoszenie trafi do warsztatu i będzie oczekiwać na potwierdzenie. W szczególnych sytuacjach warsztat może skontaktować się z Tobą telefonicznie lub przez aplikację, aby potwierdzić wizytę albo zaproponować zmianę terminu. O zmianie statusu zgłoszenia otrzymasz powiadomienie.</string>
+
+    <string name="book_visit_submit">Wyślij zgłoszenie</string>
+    <string name="book_visit_back">Wróć</string>
+
+    <string name="book_visit_submission_demo">Podsumowanie jest gotowe. Wysyłanie zgłoszenia zostanie dodane po wdrożeniu backendu.</string>
+
+    <string name="book_visit_save_success">Zgłoszenie zostało zapisane. Oczekuje na potwierdzenie warsztatu.</string>
+    <string name="book_visit_save_error">Nie udało się zapisać zgłoszenia. Spróbuj ponownie.</string>
+    <string name="service_status">Brak auta w serwisie</string>
+
+    <string name="header_service_section">OBSŁUGA SERWISOWA</string>
+    <string name="no_service_requests">Nie masz jeszcze żadnych zgłoszeń serwisowych.</string>
+    <string name="request_date_label">Preferowany termin: %1$s, %2$s</string>
+
+    <string name="request_vehicle_unknown">Nie znaleziono pojazdu</string>
+
+    <string name="request_status_pending">Oczekuje na potwierdzenie</string>
+    <string name="request_status_confirmed">Potwierdzona</string>
+    <string name="request_status_cancelled">Anulowana</string>
+    <string name="request_status_unknown">Nieznany status</string>
+    <string name="cancel_service_request">Anuluj usługę</string>
+
+    <string name="cancel_request_title">Anulowanie zgłoszenia</string>
+    <string name="cancel_request_message">Czy na pewno chcesz anulować to zgłoszenie?</string>
+    <string name="confirm">Anuluj zgłoszenie</string>
+
+
+    <string name="workshops_title">Warsztaty</string>
+    <string name="workshops_description">Wybierz warsztat, który będzie Twoim preferowanym punktem obsługi.</string>
+    <string name="no_workshops">Brak dostępnych warsztatów.</string>
+
+
+    <string name="preferred_workshop">★ Warsztat preferowany</string>
+    <string name="workshop_phone">Telefon: %1$s</string>
+    <string name="workshop_opening_hours">Godziny otwarcia:\n%1$s</string>
+    <string name="workshop_navigate">Nawiguj</string>
+    <string name="workshop_call">Zadzwoń</string>
+    <string name="workshop_address_missing">Brak adresu warsztatu.</string>
+    <string name="workshop_phone_missing">Brak numeru telefonu.</string>
+    <string name="preferred_workshop_selected">Wybrano preferowany warsztat: %1$s</string>
+
+
+</resources>

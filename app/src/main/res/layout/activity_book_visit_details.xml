@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/book_visit_details_screen_title"
+            android:textColor="@color/primary_text"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/book_visit_details_screen_subtitle"
+            android:textColor="@color/secondary_text"
+            android:textSize="14sp" />
+
+        <!-- WYBÓR SAMOCHODU -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/book_visit_vehicle_title"
+            android:textColor="@color/primary_text"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvNoVehicles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_card"
+            android:padding="16dp"
+            android:text="@string/book_visit_no_vehicles"
+            android:textColor="@color/secondary_text"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/spinnerVehicle"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_input_field"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+
+        <!-- TERMIN WIZYTY -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/book_visit_date_time_title"
+            android:textColor="@color/primary_text"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/book_visit_date_time_hint"
+            android:textColor="@color/secondary_text"
+            android:textSize="13sp" />
+
+        <!-- DATA -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/book_visit_date_label"
+            android:textColor="@color/primary_text"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnChooseDate"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/icon_background"
+            android:text="@string/book_visit_choose_date"
+            android:textAllCaps="false"
+            android:textColor="@color/primary_text"
+            android:textSize="14sp" />
+
+        <!-- GODZINA -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/book_visit_time_label"
+            android:textColor="@color/primary_text"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnChooseTime"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/icon_background"
+            android:text="@string/book_visit_choose_time"
+            android:textAllCaps="false"
+            android:textColor="@color/primary_text"
+            android:textSize="14sp" />
+
+        <!-- DALEJ -->
+
+        <Button
+            android:id="@+id/btnNextDetails"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/brand_navy"
+            android:text="@string/book_visit_next"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

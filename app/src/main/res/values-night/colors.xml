@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="brand_navy">#496A9E</color>
+    <color name="brand_navy_dark">#243B64</color>
+
+    <color name="screen_background">#121A28</color>
+    <color name="card_background">#202C3E</color>
+
+    <color name="primary_text">#F1F5FB</color>
+    <color name="secondary_text">#AAB8CC</color>
+
+    <color name="input_background">#29384D</color>
+    <color name="input_border">#3B4D65</color>
+
+    <color name="success">#65C98A</color>
+    <color name="danger">#FF7777</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="icon_background">#29384D</color>
+    <color name="status_background">#183B2A</color>
+    <color name="status_text">#65C98A</color>
+
+    <color name="settings_button_background">#29384D</color>
+    <color name="delete_background">#492B35</color>
+    <color name="delete_text">#FF7777</color>
+    <color name="separator">#39485D</color>
+
+    <color name="notification_unread_background">#3B2935</color>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Kolory marki -->
+    <color name="brand_navy">#243B64</color>
+    <color name="brand_navy_dark">#172B4D</color>
+
+    <!-- Tło i karty -->
+    <color name="screen_background">#F3F5F9</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Teksty -->
+    <color name="primary_text">#172B4D</color>
+    <color name="secondary_text">#718096</color>
+
+    <!-- Pola tekstowe -->
+    <color name="input_background">#FFFFFF</color>
+    <color name="input_border">#DCE6F5</color>
+
+    <!-- Kolory dodatkowe -->
+    <color name="success">#21834A</color>
+    <color name="danger">#D9534F</color>
+
+    <!-- Kolory systemowe -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="icon_background">#EAF0FA</color>
+    <color name="status_background">#E5F5EB</color>
+    <color name="status_text">#21834A</color>
+
+    <color name="settings_button_background">#EAF0FA</color>
+    <color name="delete_background">#FCEAEA</color>
+    <color name="delete_text">#D9534F</color>
+    <color name="separator">#E8EDF4</color>
+
+    <color name="notification_unread_background">#FFF1F0</color>
+
+</resources>
